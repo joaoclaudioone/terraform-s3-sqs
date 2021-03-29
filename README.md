@@ -1,9 +1,9 @@
 # S3-SQS
-Módulo terrafomr que cria um bucket S3 opcionalmente pode criar uma fila SQS em que o bucket vai postar uma mensagem cada vez que um objeto for criado.
+Terraform module that creates one S3 bucket, and opcionally will post on a message on a SQS queue everytime an object is created. 
 
-## Exemplos de uso
-No diretório exemplo é possível ver uma chamada para o módulo com parâmetros básicos. 
 
+## Example
+inside exemplo directory we could check for a basic usage
 
 ## Inputs
 
@@ -25,7 +25,7 @@ No diretório exemplo é possível ver uma chamada para o módulo com parâmetro
 | receive_wait_time_seconds | The time for which a ReceiveMessage call will wait for a message to arrive (long polling) before returning | `number` | `20` | no |
 
 
-## Outupus
+## Outputs
 
 | Name | Description |
 |------|-------------|
